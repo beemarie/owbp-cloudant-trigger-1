@@ -44,7 +44,7 @@ package:
         # Sequence named "process-change-cloudant-sequence"
         # Creating sequence to connect the cloudant "read" action with the "process-change" action
         process-change-cloudant-sequence:
-            actions: openwhisk-cloudant/read, process-change
+            actions: openwhisk-cloudant/read,process-change
     rules:
         # Rule named "log-change-rule"
         # Creating rule that maps database change trigger to sequence
